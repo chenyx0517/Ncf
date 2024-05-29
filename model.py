@@ -110,3 +110,5 @@ class NCF(nn.Module):
 
 		prediction = self.predict_layer(concat)
 		return prediction.view(-1)
+
+
